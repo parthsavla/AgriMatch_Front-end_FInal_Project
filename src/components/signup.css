@@ -1,0 +1,38 @@
+.signupContainer{
+    display: grid;
+    grid-template-columns: 40% auto;
+    width: 70%;
+    margin: auto;
+    background-color: rgb(243, 243, 243);
+    background-color: rgb(10, 153, 58);
+    margin-top: 1.2em;
+    
+}
+
+.signupFormContainer{
+    padding: 2em;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.signupFormContainer>div{
+    border:white 3px solid;
+    
+    padding: 2em;
+}
+.signupFormContainer a{
+    color: white;
+}
+
+@media only screen and (max-width: 600px) {
+    .signupContainer{
+        display: grid;
+        grid-template-columns: auto;
+        width: 100%;
+        margin: auto;
+        background-color: #0a9b3a;
+    
+    }
+    .signImgContainer{
+        display: none;
+    }
+  }

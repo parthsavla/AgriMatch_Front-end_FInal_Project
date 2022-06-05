@@ -1,0 +1,45 @@
+.App {
+  text-align: center;
+}
+
+.routerLink{
+  text-decoration: none;
+}
+.homeCont{
+  background-image: url(./img/homeBg.jpg);
+  background-repeat: no-repeat;
+  height: 90vh;
+  background-size: cover;
+  margin-top: -4em;
+
+  background-color: rgba(7, 110, 42, 0.882);
+}
+.app-bar{
+  display:flexbox;
+  z-index: 2;
+}
+.bg-text {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: hsla(140, 97%, 30%, 0.787); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 6em;
+  font-family: cursive;
+  text-align: center;
+  backdrop-filter: grayscale(30%);
+}
+
+@media only screen and (max-width: 600px) {
+  .bg-text{
+    display: block;
+    padding: 1em;
+    z-index: 0;
+  }
+  
+}

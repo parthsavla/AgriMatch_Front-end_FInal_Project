@@ -1,0 +1,50 @@
+.LoginContainer{
+    display: grid;
+    grid-template-columns: 43% auto;
+    width: 60%;
+    margin: auto;
+    background-color: #0a9b3a;
+
+}
+.loginFormContainer{
+    padding: 3em;
+}
+.loginFormContainer a{
+    color: white;
+}
+.loginFormContainer>div{
+    border: 3px solid white;
+    padding: 2em;
+    height: 90%;
+}
+.inputFields{
+    text-align: center;
+    color: rgba(255, 255, 255, 0.52);
+    background-color: transparent;
+    border: none;
+    border-bottom: rgba(255, 255, 255, 0.52) 2px solid; 
+    width: 80%;
+    font-size: large;
+}
+.inputSubmitButton{
+    border-radius: 65px;
+    background-color: rgba(255, 239, 239, 1);
+    border: none;
+    font-size: larger;
+    padding: 0.2em;
+    width: 6em;
+}
+
+@media only screen and (max-width: 600px) {
+    .LoginContainer{
+        display: grid;
+        grid-template-columns: auto;
+        width: 100%;
+        margin: auto;
+        background-color: #0a9b3a;
+    
+    }
+    .loginImgContainer{
+        display: none;
+    }
+  }

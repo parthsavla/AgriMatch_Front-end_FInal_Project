@@ -1,0 +1,29 @@
+@font-face {
+  font-family: Moon;
+  src: url(img/Moon\ Light.otf);
+}
+
+
+.CPtext{
+  max-width: 50%;
+  font-family: Moon;
+  background-color: #029834;
+  border-radius: 1em;
+  height: fit-content;
+  margin: auto;
+  line-height: 2em;
+  color:white ;
+  
+}
+
+.CPform{
+  max-width: 50%;
+  padding: 3em;
+  margin: auto;
+  border:2px solid #47d43ad2;
+  border-radius: 1em;
+
+}
+/* div{
+  border: solid 2px black;
+} */
